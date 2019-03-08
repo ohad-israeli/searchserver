@@ -6,4 +6,4 @@ to run just, the json file includes the password to a Redis instance which inclu
 
 node server.js --credentials ./cred.json 
 
-You can read more about this code in my blog https://ohad-israeli.github.io
+You can read more about this code in my blog https://ohad-israeli.github.io 
