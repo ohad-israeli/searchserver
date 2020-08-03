@@ -7,9 +7,9 @@ const
     credentials = require(argv.credentials),        // Our credentials are stored in a node_redis connection object - see https://github.com/NodeRedis/node_redis#rediscreateclient
     redisClient = redis.createClient(credentials),  // Client object for connection to the Redis server
     faker = require('faker'),                       // Faker will be used to generate data
-    indexName = 'lolindex',                         // the name of the search index that we will be created
-    suggCompIndex = 'lolCompIndex',                 // auto complete index for company
-    suggProdIndex = 'lolProdIndex'                  // auto complete index for product
+    indexName = 'searchIndex',                         // the name of the search index that we will be created
+    suggCompIndex = 'autoCompanyIndex',                 // auto complete index for company
+    suggProdIndex = 'autoProductIndex'                  // auto complete index for product
 
 
 
