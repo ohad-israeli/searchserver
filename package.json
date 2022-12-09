@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "redis": "^2.8.0",
     "yargs": "^13.2.2"
